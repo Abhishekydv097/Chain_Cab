@@ -83,6 +83,7 @@ The Chain Cab Web 3.0 project is licensed under [MIT License](LICENSE). Feel fre
 The fake ethers provided through Metamask are for testing and development purposes only. Please refrain from using real ethers or performing actual financial transactions with this application.
 
 ## Screenshots
+Landing Page:
 
 ![Landing Page](Landing%20page.png)
 ![Landing Page](PaymentSuccess.png)
