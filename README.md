@@ -86,9 +86,27 @@ The fake ethers provided through Metamask are for testing and development purpos
 Landing Page:
 
 ![Landing Page](Landing%20page.png)
+
+PaymentSuccess:
+
+
 ![Landing Page](PaymentSuccess.png)
-![Landing Page](Metamask.png)
-![Landing Page](Metamask2.png)
+
+Metamask before payment ethers:
+<p align="center">
+  <img src="Metamask.png" alt="Landing Page">
+</p>
+
+Metamask after paying with ethers:
+
+
+<p align="center">
+  <img src="Metamask2.png" alt="Landing Page">
+</p>
+
+Ganache for local ethers:
+
+
 ![Landing Page](Ganache.png)
 
 
