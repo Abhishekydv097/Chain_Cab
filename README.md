@@ -37,9 +37,9 @@ To set up the Chain Cab Web 3.0 project on your local machine, follow these step
    ```
 
 2. Navigate to the project directory:
-  ```
+   ```
    cd CHAINCAB
-  ```
+   ```
 
 3. Install the frontend dependencies:
    ```
