@@ -33,32 +33,26 @@ To set up the Chain Cab Web 3.0 project on your local machine, follow these step
 
 1. Clone the repository from GitHub:
    ```
-   git clone https://github.com/chaincab-web3.git
+   git clone https://github.com/Abhishekydv097/Chain_Cab.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd chaincab-web3
+   cd CHAINCAB
    ```
 
 3. Install the frontend dependencies:
    ```
    npm install
    ```
-
-4. Install the backend dependencies:
-   ```
-   npm run backend-install
    ```
 
 5. Start the frontend development server:
    ```
-   npm run start
+   npm run dev
    ```
 
-6. Start the backend server:
-   ```
-   npm run backend-start
+
    ```
 
 7. Access the application in your web browser:
