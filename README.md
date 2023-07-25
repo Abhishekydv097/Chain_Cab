@@ -1,34 +1,95 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Chain Cab Web 3.0 Project Readme
+
+The Chain Cab Web 3.0 project is a decentralized ride-sharing application that leverages blockchain technology to enable peer-to-peer renting of cars based on predetermined requirements. Unlike existing ride-sharing applications that rely on centralized systems, Chain Cab's decentralized nature provides increased security, transparency, and autonomy for its users.
+
+## Tech Stack
+
+The Chain Cab Web 3.0 project is built using the following technologies:
+
+### Frontend
+- ReactJS: A popular JavaScript library for building user interfaces.
+- JavaScript: The programming language used for client-side interactions.
+- HTML: The standard markup language for creating web pages.
+- Tailwind CSS: A utility-first CSS framework that enables rapid UI development.
+
+### Database
+- Sanity.io: A flexible and customizable headless content management system used to manage the application's data.
+
+### Blockchain
+- Solidity: A programming language used for developing smart contracts on the Ethereum blockchain.
+
+### Fake Ethers
+- Metamask: A browser extension that allows the usage of fake ethers for testing and development purposes on the Ethereum blockchain.
+
+### Backend
+- MongoDB: A NoSQL database used for storing application data.
+
+### Deployment
+- Vercel: A cloud platform that simplifies the deployment and hosting of web applications.
 
 ## Getting Started
 
-First, run the development server:
+To set up the Chain Cab Web 3.0 project on your local machine, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+1. Clone the repository from GitHub:
+   ```
+   git clone https://github.com/chaincab-web3.git
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to the project directory:
+   ```
+   cd chaincab-web3
+   ```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+3. Install the frontend dependencies:
+   ```
+   npm install
+   ```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+4. Install the backend dependencies:
+   ```
+   npm run backend-install
+   ```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+5. Start the frontend development server:
+   ```
+   npm run start
+   ```
 
-## Learn More
+6. Start the backend server:
+   ```
+   npm run backend-start
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+7. Access the application in your web browser:
+   ```
+   http://localhost:3000
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Chain Cab Web 3.0 provides a user-friendly interface for renting cars using the blockchain. Users can interact with the application using the frontend interface built with ReactJS, and the application will communicate with the backend server and the Ethereum blockchain (via Metamask) for handling smart contracts and transactions.
 
-## Deploy on Vercel
+## Contributions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+https://github.com/Abhishekydv097
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+
+The Chain Cab Web 3.0 project is licensed under [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
+
+## Disclaimer
+
+The fake ethers provided through Metamask are for testing and development purposes only. Please refrain from using real ethers or performing actual financial transactions with this application.
+
+## Screenshots
+
+![Landing Page](Landing%20page.png)
+![Landing Page](PaymentSuccess.png)
+![Landing Page](Metamask.png)
+![Landing Page](Metamask2.png)
+![Landing Page](Ganache.png)
+
+
+
+Happy ride-sharing with Chain Cab Web 3.0!
